@@ -83,3 +83,85 @@ body {
     text-align: center;
     border-radius: 6px;
 }
+.lower_half {
+    display: grid;
+    color: #dadadaec;
+    font-family: 'Karla', sans-serif;
+}
+
+.lower_half_left {
+    grid-column: 1;
+    background-color: #2bb3b1;
+    padding: 30px 35px;
+}
+
+.lower_half_right {
+    grid-column: 2;
+    background-color: #4abebd;
+    padding: 30px 35px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 550px;   
+    max-height: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    display: grid;
+    place-items: center;
+    transform: translateY(21%);
+}
+
+.upper_half {
+    background-color: #ffffff;
+    padding: 40px 35px;
+    font-family: 'Karla', sans-serif;
+}
+
+.button {
+    background-color: #bfdf32;
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.community {
+    color: #2db3b6;
+    font-family: 'Karla', sans-serif;
+    font-size: 19px;
+}
+
+.refund {
+    color: #c7e247;
+    font-family: 'Karla', sans-serif;
+}
+
+.access {
+    color: #979aa9;
+    font-family: 'Karla', sans-serif;
+    line-height: 170%;
+    font-size: 13px;
+}
+
+.monthly_fee {
+    margin-bottom: 15px;
+}
+
+.full_access {
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+
+.list {
+    font-size: 12px;
+    line-height: 140%;
+    color: #aeeeed;
+}
