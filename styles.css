@@ -1,0 +1,39 @@
+.lower_half {
+    display: grid;
+}
+
+.lower_half_left {
+    grid-column: 1;
+    padding: 2px;
+    background-color: #40e0d0;
+    padding: 30px 35px;
+}
+
+.lower_half_right {
+    grid-column: 2;
+    padding: 2px;
+    background-color: #82e9df;
+    padding: 30px 35px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-width: 320px;   
+    max-height: 420px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    display: grid;
+    place-items: center;
+    transform: translateY(24%);
+}
+
+.upper_half {
+    background-color: #ffffff;
+    padding: 40px 35px;
+}
