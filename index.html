@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   
   <title>Frontend Mentor | Single Price Grid Component</title>
@@ -14,33 +16,35 @@
 <body>
   <div class="grid">
     <div class="upper_half">   
-      <div>Join our community</div>
+      <div class="community"><b>Join our community</b></div>
       </br> 
-      <div>30-day, hassle-free money back guarantee</div>
+      <div class="refund"><b>30-day, hassle-free money back guarantee</b></div>
       </br> 
-      <div>Gain access to our full library of tutorials along with expert code reviews.</br> 
+      <div class="access">Gain access to our full library of tutorials along with expert code reviews.</br> 
     Perfect for any developers who are serious about honing their skills.</div>
     </div> 
 
     <div class="lower_half">
       <div class="lower_half_left">
-        <div>Monthly Subscription</div>
+        <div><b>Monthly Subscription</b></div>
         </br>
-        <div>&dollar;29 per month</div>
-        <div>Full access for less than &dollar;1 a day</div>
-        <div class="button">Sign Up</div>
+        <div class="monthly_fee">&dollar;29 per month</div>
+        <div class="full_access">Full access for less than &dollar;1 a day</div>
+        <div class="button"><b>Sign Up</b></div>
       </div>
 
       <div class="lower_half_right">
-        <div>Why Us</div>
+        <div><b>Why Us</b></div>
         </br>
-        <div>Tutorials by industry experts</div>
-        <div>Peer &amp; expert code review</div>
-        <div>Coding exercises</div>
-        <div>Access to our GitHub repos</div>
-        <div>Community forum</div>
-        <div>Flashcard decks</div>
-        <div>New videos every week</div>
+        <div class="list">
+          <div>Tutorials by industry experts</div>
+          <div>Peer &amp; expert code review</div>
+          <div>Coding exercises</div>
+          <div>Access to our GitHub repos</div>
+          <div>Community forum</div>
+          <div>Flashcard decks</div>
+          <div>New videos every week</div>
+        </div>
       </div>
     </div>
 </body>
